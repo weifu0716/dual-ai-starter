@@ -44,6 +44,10 @@
 
 ### 1a. 裝 Claude Code
 
+> 💡 **注意：Claude Code ≠ claude.ai 的聊天視窗。** 聊天版只能對話；Claude Code 是能住進你電腦、開資料夾、自己跑指令的版本，這套必須用它。
+> **不想碰指令的人：直接去 Anthropic 官網下載 Claude Code 桌面版 App（Mac/Windows 都有）**，裝好登入即可、跳過下面的指令步驟。
+
+指令路線（跟桌面版擇一即可）：
 1. 需要 Node.js：若沒裝，去 nodejs.org 下載 LTS 版安裝（一路下一步）。
 2. 開 PowerShell（Mac 開 Terminal），跑：
    ```
@@ -51,6 +55,8 @@
    ```
    > Windows 若跳紅字擋 .ps1：先跑 `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` 按 Y，再重試。
 3. 跑 `claude`，照畫面指示用瀏覽器登入 Claude 帳號。
+
+> 之後所有「終端機指令」其實都是 AI 自己在跑——裝好之後，人類全程用桌面視窗就好，不會再碰到黑窗。
 
 ### 1b. 裝 Codex
 
